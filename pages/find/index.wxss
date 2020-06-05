@@ -1,0 +1,36 @@
+.find-page{
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+.tab-area{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background: white;
+  z-index:99;
+}
+.hot-area{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+.content{
+  height: 55px;
+}
+.item{
+  height: 100%;
+}
+.lcontent{
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#d43c33;
+}

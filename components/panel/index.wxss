@@ -1,0 +1,41 @@
+.panel-compon{
+  position: relative;
+  display: flex;
+}
+.left-box{
+  height: 100%;
+}
+.right-box{
+  flex:1;
+  height: 100%;
+  display: flex;
+  border-bottom: 1px solid #eee;
+  /* background: darkblue; */
+}
+.content{
+  flex:1;
+  padding: 6px 0;
+}
+.name{
+  width: 100%;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+}
+.detail{
+  width: 100%;
+  font-size: 12px;
+  color: #888;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+}
+.image{
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

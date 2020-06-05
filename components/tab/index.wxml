@@ -1,0 +1,7 @@
+<view class="tab-compon">
+  <view wx:for="{{tabArr}}" class="tab-item">
+    <view class="content" bindtap="onTap" data-index="{{index}}">
+     <text style="color:{{index===active ? fontColor : '#333'}}">{{item}}</text>
+    </view>
+  </view>
+</view>

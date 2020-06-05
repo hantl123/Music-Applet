@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "panel-compon": "/components/panel/index",
+    "tab-compon": "/components/tab/index"
+  }
+}

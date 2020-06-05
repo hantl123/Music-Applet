@@ -1,0 +1,19 @@
+<view class="panel-compon">  
+  <slot name="lcontent">
+    <view class="left-box">
+    </view>
+  </slot>
+  <view class="right-box">
+    <view class="content">
+     <view class="name">
+      <slot name="cname"></slot>
+     </view> 
+     <view class="detail">
+      <slot name="cdetail"></slot>
+     </view>
+    </view>
+    <view class="image">
+      <slot name="rimg"></slot>
+    </view>
+  </view>
+</view>

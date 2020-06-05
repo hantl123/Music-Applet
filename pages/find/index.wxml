@@ -1,0 +1,16 @@
+<view class="find-page"> 
+  <view class="tab-area">
+    <tab-compon tabArr="{{tabArr}}" bind:tabitemTap="tabitemTap"></tab-compon>
+  </view>
+  <view class="hot-area">
+    <!-- <view class="img"></view> -->
+    <view class="content" wx:for="{{list}}">
+      <panel-compon class="item">
+        <view slot="lcontent" class="lcontent">{{index<=8 ? '0'+(index+1) : index+1}}</view>
+        <view slot="cname">丢了你</view>
+        <view slot="cdetail">景龙-丢了你</view>
+        <view slot="rimg">456</view>
+      </panel-compon>
+    </view>
+  </view>
+</view>
